@@ -12,6 +12,7 @@
       "Bash(git rm *)",
       "Bash(git status *)",
       "Bash(git log *)",
+      "Bash(git branch *)",
       "Bash(gh pr *)"
     ]
   }
