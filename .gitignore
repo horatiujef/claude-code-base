@@ -35,3 +35,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Claude Code local overrides
+.claude/settings.local.json
