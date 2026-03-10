@@ -12,7 +12,7 @@
       "Bash(git rm *)",
       "Bash(git status *)",
       "Bash(git log *)",
-      "Bash(git branch --show-current)",
+      "Bash(git branch *)",
       "Bash(gh pr *)"
     ]
   }
