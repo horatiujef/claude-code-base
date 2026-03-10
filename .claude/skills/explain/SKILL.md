@@ -1,7 +1,7 @@
 ---
 name: explain
 description: Explain how a piece of code or feature works
-user-invocable: true
+user-invokable: true
 disable-model-invocation: true
 ---
 

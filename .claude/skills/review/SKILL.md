@@ -1,7 +1,7 @@
 ---
 name: review
 description: Review the current changes for bugs, security issues, and code quality
-user-invocable: true
+user-invokable: true
 ---
 
 Review the current changes for bugs, security issues, and code quality.

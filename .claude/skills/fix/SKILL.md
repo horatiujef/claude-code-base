@@ -1,7 +1,7 @@
 ---
 name: fix
 description: Fix the described issue in the codebase
-user-invocable: true
+user-invokable: true
 ---
 
 Fix the described issue in the codebase.
