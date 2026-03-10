@@ -20,4 +20,4 @@ Work on $ARGUMENTS topic if specified, otherwise pick one from the list below at
 - The opportunity must be clear, atomic, and self-contained — do not mix unrelated concerns in one PR
 - Keep the change focused: ideally under 500 lines of source code (excluding tests and generated files); slightly over is fine, but avoid sprawling diffs
 - Run tests after making changes; they must pass before shipping
-- Ship with /ship at the end
+- Ship with "/ship done" at the end
