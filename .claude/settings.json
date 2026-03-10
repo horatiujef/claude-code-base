@@ -3,7 +3,9 @@
     "allow": [
       "Edit",
       "Write",
-      "NotebookEdit"
+      "NotebookEdit",
+      "Bash(gh *)",
+      "Bash(git *)"
     ]
   }
 }
