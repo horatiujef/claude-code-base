@@ -7,6 +7,11 @@
       "Bash(git checkout *)",
       "Bash(git add *)",
       "Bash(git push *)",
+      "Bash(git commit *)",
+      "Bash(git diff *)",
+      "Bash(git rm *)",
+      "Bash(git status *)",
+      "Bash(git log *)",
       "Bash(gh pr *)"
     ]
   }
