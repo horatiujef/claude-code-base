@@ -42,7 +42,7 @@ git commit -m "$(cat <<'EOF'
 
 <optional body>
 
-Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
+Co-Authored-By: Claude
 EOF
 )"
 ```
