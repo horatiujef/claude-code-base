@@ -31,7 +31,7 @@ Analyze the diff to understand what changed and why. Use the optional hint if pr
 
 First, check the current branch with `git branch --show-current` and compare it against the base branch from step 2.
 
-- If already on a feature branch (not the base branch): skip `git checkout -b`, use the existing branch as-is. Also check if a PR already exists with `gh pr view 2>/dev/null` — if it does, skip straight to step 6 (update the PR description if needed, or just return the existing PR URL).
+- If already on a feature branch (not the base branch): skip `git checkout -b`, use the existing branch as-is. Also check if a PR already exists with `gh pr view 2>/dev/null` — if it does, still stage, commit, and push the new changes (steps 4–5), then skip PR creation in step 6 (update the PR description if needed, or just return the existing PR URL).
 - If on the base branch: create a new branch with `git checkout -b <branch-name>`.
 
 Stage all relevant changed/new files (prefer specific paths over `git add -A`, but use judgment). Then commit with the generated message using this format:
@@ -79,3 +79,7 @@ EOF
 ## 7. Return the PR URL
 
 Output the PR URL so the user can open it directly.
+
+## 8. Switch back to the base branch
+
+Only if the arguments contain "done" (e.g. `/ship done`): run `git checkout <base-branch>` to return to the base branch locally.
