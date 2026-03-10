@@ -4,8 +4,10 @@
       "Edit",
       "Write",
       "NotebookEdit",
-      "Bash(gh *)",
-      "Bash(git *)"
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git push *)",
+      "Bash(gh pr *)"
     ]
   }
 }
